@@ -17,4 +17,12 @@ public String index() {
 	public String register() {
 		return "register";
 	}
+	@GetMapping("/products")
+	public String products() {
+		return "product";
+	}
+	@GetMapping("/prod")
+	public String product() {
+		return "view_product";
+	}
 }
