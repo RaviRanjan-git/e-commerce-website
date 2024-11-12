@@ -1,5 +1,8 @@
 package ravi.model;
 
+import ravi.model.Product;
+import ravi.model.UserDtls;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -10,7 +13,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 
 @Entity
 @AllArgsConstructor
